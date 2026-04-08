@@ -1,6 +1,10 @@
 # Landing-Page-MWN-Core
 
+## Correções (Menos importantes)
 
+- [ ] Alterar icone ao lado do botão (Muito pequeno)
+- [ ] incluir links das redes sociais em algum lugar
+- [ ] incluir link para a plataforma oficial 
 
 
 
