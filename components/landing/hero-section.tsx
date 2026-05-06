@@ -28,11 +28,18 @@ export function HeroSection() {
           {/* Left Content */}
           <div className="text-center lg:text-left">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00D4FF]/10 border border-[#00D4FF]/30 mb-6">
-              <span className="w-2 h-2 bg-[#00D4FF] rounded-full animate-pulse" />
-              <span className="text-sm font-medium text-[#00D4FF]">
-                Tecnologia de ponta para restaurantes
-              </span>
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#00D4FF]/10 border border-[#00D4FF]/30 mb-6">
+              <Image
+                src="/images/logo.jpeg"
+                alt="Comanda X"
+                width={28}
+                height={28}
+                className="rounded-full"
+              />
+              <div>
+                <p className="text-sm font-semibold text-white">Comanda <span className="text-[#00D4FF]">X</span></p>
+                <p className="text-xs text-gray-300">Sistema inteligente para restaurantes</p>
+              </div>
             </div>
 
             {/* Headline */}
@@ -109,7 +116,7 @@ export function HeroSection() {
                     <div className="flex justify-center mb-8">
                       <Image
                         src="/images/logo.jpeg"
-                        alt="MWN CORE"
+                        alt="Comanda X"
                         width={80}
                         height={80}
                         className="rounded-xl"
@@ -117,7 +124,7 @@ export function HeroSection() {
                     </div>
                     
                     <h2 className="text-xl font-bold text-center text-white mb-2">
-                      Bem-vindo ao MWN CORE
+                      Bem-vindo ao Comanda <span className="text-[#00D4FF]">X</span>
                     </h2>
                     <p className="text-sm text-gray-400 text-center mb-8">
                       Faca login para continuar

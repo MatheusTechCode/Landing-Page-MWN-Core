@@ -46,9 +46,10 @@ export function Navigation() {
               height={50}
               className="rounded-lg"
             />
-            <span className="text-xl font-bold text-white hidden sm:block">
-              MWN <span className="text-[#00D4FF]">CORE</span>
-            </span>
+            <div className="hidden sm:flex flex-col leading-none">
+              <span className="text-xl font-bold text-white">MWN <span className="text-[#00D4FF]">CORE</span></span>
+              <span className="text-xs text-gray-300">Tecnologia para restaurantes</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

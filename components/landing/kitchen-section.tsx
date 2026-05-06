@@ -90,7 +90,7 @@ export function KitchenSection() {
                     <ChefHat className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-white">MWN Kitchen</h3>
+                    <h3 className="text-sm font-semibold text-white">Comanda X Kitchen</h3>
                     <p className="text-xs text-gray-500">Painel da Cozinha</p>
                   </div>
                 </div>

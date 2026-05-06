@@ -54,9 +54,10 @@ export function Footer() {
                 height={50}
                 className="rounded-lg"
               />
-              <span className="text-xl font-bold text-white">
-                MWN <span className="text-[#00D4FF]">CORE</span>
-              </span>
+              <div>
+                <p className="text-xl font-bold text-white">MWN <span className="text-[#00D4FF]">CORE</span></p>
+                <p className="text-sm text-gray-400">Empresa de tecnologia para restaurantes</p>
+              </div>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs mb-6">
               Revolucionando restaurantes com tecnologia inteligente. 
