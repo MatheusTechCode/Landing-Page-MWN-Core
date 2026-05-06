@@ -12,7 +12,7 @@ const values = [
   {
     icon: Eye,
     title: "Visao",
-    description: "Ser a plataforma numero 1 em digitalizacao de restaurantes na America Latina ate 2027."
+    description: "Ser uma plataforma reconhecida em digitalizacao de restaurantes na America Latina ate 2030."
   },
   {
     icon: Heart,
