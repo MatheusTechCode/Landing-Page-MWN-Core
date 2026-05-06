@@ -17,13 +17,13 @@ export default function HomePage() {
     <main className="min-h-screen bg-[#0A0E17]">
       <Navigation />
       <HeroSection />
+      <AboutSection />
       <ProblemSection />
       <SolutionSection />
       <FeaturesSection />
       <KitchenSection />
       <TimelineSection />
       <BenefitsSection />
-      <AboutSection />
       <PricingSection />
       <TestimonialsSection />
       <CTASection />
